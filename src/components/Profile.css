@@ -1,0 +1,24 @@
+#profile {
+    margin: auto;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#inbox_label {
+    text-align: center;
+}
+
+#msg_content {
+    font-size: 17px;
+}
+
+#msg_title {
+    color: blue;
+    font-size: 17px;
+}
+
+#msg_title:hover {
+    cursor: pointer;
+}

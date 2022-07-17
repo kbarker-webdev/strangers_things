@@ -1,0 +1,65 @@
+.post {
+    border: thin solid black;
+    margin: 5px;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.post:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#price {
+    font-size: medium;
+}
+
+#description {
+    font-size: medium;
+}
+
+#location {
+    font-size: medium;
+}
+
+#btn_msg , #btn_edit, #btn_delete{
+    background-color: white;
+    border: 0.2px solid black;
+    margin: 2px;
+    width: 200px;
+}
+
+#btn_msg:hover, #btn_edit:hover, #btn_delete:hover{
+    background-color: rgba(0, 76, 84, 0.304);
+}
+
+#search_container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#search_label {
+    margin: 5px;
+}
+
+#search {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 76, 84)
+}
+
+#new_post {
+    background-color: white;
+    margin: 5px;
+    border: 0.2px solid black;
+}
+
+#new_post:hover {
+    background-color: rgba(0, 76, 84, 0.304);
+}
+
+#message {
+    width: 200px;
+    margin: 2px;
+}

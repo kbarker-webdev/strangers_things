@@ -1,0 +1,31 @@
+#editPost {
+    margin: auto;
+    margin-top: 5%;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    margin: auto;
+}
+
+#deliver {
+    margin: auto;
+}
+
+#post {
+    background-color: white;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#post:hover {
+    background-color: rgba(0, 76, 84, 0.304);
+}
+
+#title, #description, #price, #location {
+    border-radius: 5px;
+}
