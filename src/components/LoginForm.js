@@ -27,7 +27,7 @@ const LoginForm = () => {
         } else {
             alert(res)
         }
-        window.location.href = "/profile"
+        useNavigate('/profile');
     }
 
     return (<div id='login'>

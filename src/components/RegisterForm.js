@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { registerUser } from '../api';
 import './RegisterForm.css'
 import { successMsg } from '.';
+import { useNavigate } from 'react-router-dom';
 
 
 const RegisterForm = () => {
     const [ user, setUser ] = useState({});
     const [confirmPassword, setconfirmPassword] = useState('');
+
+    const navigate = useNavigate();
 
 
     const handleSubmit = async (event) => {
@@ -23,7 +26,7 @@ const RegisterForm = () => {
             registerUser(userData).then((res) => {
                 localStorage.setItem("token", res);
                 successMsg('Registered successfully.');
-                window.location.href = '/home/'
+                navigate('/home/');
             });
             ;
             
